@@ -1,0 +1,23 @@
+{
+  "name": "jhelloworld",
+  "version": "1.0.0",
+  "description": "jhelloworld-jenkins-github integration",
+  "main": "jhelloworld.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudblab/jhelloworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudblab/jhelloworld/issues"
+  },
+  "homepage": "https://github.com/cloudblab/jhelloworld#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "zombie": "^5.0.7"
+  }
+}
